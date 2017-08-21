@@ -25,7 +25,7 @@ module Google
       end
 
       options = {
-        :provider => 'google',
+        :provider => 'Google',
         :google_project => new_resource.project_id,
         :google_client_email => new_resource.client_email,
         :google_key_location => new_resource.key_location,
